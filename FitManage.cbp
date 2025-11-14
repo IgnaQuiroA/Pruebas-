@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FitManage" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="persona/;plan/;app/;clasexsocio/;clase/;managerinstructores/;managerplanes/;fecha/;managersocio/;socio/;cobranza/;instructor/;managercobranzas/;archivosocios/;archivoplanes/;archivoinstructores/;archivocobranzas/;managerclases/;archivoclases/;managerreportes/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FitManage" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FitManage" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ArchivoCobranzas.cpp">
+			<Option virtualFolder="archivocobranzas/" />
+		</Unit>
+		<Unit filename="ArchivoCobranzas.h">
+			<Option virtualFolder="archivocobranzas/" />
+		</Unit>
+		<Unit filename="ManagerInstructores.cpp">
+			<Option virtualFolder="managerinstructores/" />
+		</Unit>
+		<Unit filename="ManagerInstructores.h">
+			<Option virtualFolder="managerinstructores/" />
+		</Unit>
+		<Unit filename="ManagerReportes.cpp">
+			<Option virtualFolder="managerreportes/" />
+		</Unit>
+		<Unit filename="ManagerReportes.h">
+			<Option virtualFolder="managerreportes/" />
+		</Unit>
+		<Unit filename="app.cpp">
+			<Option virtualFolder="app/" />
+		</Unit>
+		<Unit filename="app.h">
+			<Option virtualFolder="app/" />
+		</Unit>
+		<Unit filename="archivoClases.cpp">
+			<Option virtualFolder="archivoclases/" />
+		</Unit>
+		<Unit filename="archivoClases.h">
+			<Option virtualFolder="archivoclases/" />
+		</Unit>
+		<Unit filename="archivoSocios.cpp">
+			<Option virtualFolder="archivosocios/" />
+		</Unit>
+		<Unit filename="archivoSocios.h">
+			<Option virtualFolder="archivosocios/" />
+		</Unit>
+		<Unit filename="archivoinstructores.cpp">
+			<Option virtualFolder="archivoinstructores/" />
+		</Unit>
+		<Unit filename="archivoinstructores.h">
+			<Option virtualFolder="archivoinstructores/" />
+		</Unit>
+		<Unit filename="archivoplanes.h">
+			<Option virtualFolder="archivoplanes/" />
+		</Unit>
+		<Unit filename="archivosplanes.cpp">
+			<Option virtualFolder="archivoplanes/" />
+		</Unit>
+		<Unit filename="clase.cpp">
+			<Option virtualFolder="clase/" />
+		</Unit>
+		<Unit filename="clase.h">
+			<Option virtualFolder="clase/" />
+		</Unit>
+		<Unit filename="clasexsocio.cpp">
+			<Option virtualFolder="clasexsocio/" />
+		</Unit>
+		<Unit filename="clasexsocio.h">
+			<Option virtualFolder="clasexsocio/" />
+		</Unit>
+		<Unit filename="cobranza.cpp">
+			<Option virtualFolder="cobranza/" />
+		</Unit>
+		<Unit filename="cobranza.h">
+			<Option virtualFolder="cobranza/" />
+		</Unit>
+		<Unit filename="fecha.cpp">
+			<Option virtualFolder="fecha/" />
+		</Unit>
+		<Unit filename="fecha.h">
+			<Option virtualFolder="fecha/" />
+		</Unit>
+		<Unit filename="instructor.cpp">
+			<Option virtualFolder="instructor/" />
+		</Unit>
+		<Unit filename="instructor.h">
+			<Option virtualFolder="instructor/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="managerClases.cpp">
+			<Option virtualFolder="managerclases/" />
+		</Unit>
+		<Unit filename="managerClases.h">
+			<Option virtualFolder="managerclases/" />
+		</Unit>
+		<Unit filename="managerCobranzas.cpp">
+			<Option virtualFolder="managercobranzas/" />
+		</Unit>
+		<Unit filename="managerCobranzas.h">
+			<Option virtualFolder="managercobranzas/" />
+		</Unit>
+		<Unit filename="managerPlanes.cpp">
+			<Option virtualFolder="managerplanes/" />
+		</Unit>
+		<Unit filename="managerPlanes.h">
+			<Option virtualFolder="managerplanes/" />
+		</Unit>
+		<Unit filename="managersocios.cpp">
+			<Option virtualFolder="managersocio/" />
+		</Unit>
+		<Unit filename="managersocios.h">
+			<Option virtualFolder="managersocio/" />
+		</Unit>
+		<Unit filename="persona.cpp">
+			<Option virtualFolder="persona/" />
+		</Unit>
+		<Unit filename="persona.h">
+			<Option virtualFolder="persona/" />
+		</Unit>
+		<Unit filename="plan.cpp">
+			<Option virtualFolder="plan/" />
+		</Unit>
+		<Unit filename="plan.h">
+			<Option virtualFolder="plan/" />
+		</Unit>
+		<Unit filename="socio.cpp">
+			<Option virtualFolder="socio/" />
+		</Unit>
+		<Unit filename="socio.h">
+			<Option virtualFolder="socio/" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
